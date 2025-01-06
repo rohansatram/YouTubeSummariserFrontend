@@ -1,43 +1,47 @@
-body{
-    background-color: darkorchid;
-    text-align: center;
-    justify-content: center;
-    align-items: center;   
+body {
+  background-color: #1a1a1a;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
-    color: black;
+  color: white;
+}
+
+h2 {
+  color: white;
 }
 
 #MyForm {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 #MyForm input[type="text"] {
-    width: 70%;
-    height:50px;
-    border-radius: 20px;
+  width: 70%;
+  height: 15%;
+  border-radius: 20px;
 }
 
-#MyForm input[type="submit"]{
-    width: 60px;
-    height: 30px;
-    background-color: #3b74d1;
-    border-radius: 20px;
-}
+/*#MyForm input[type="submit"] {
+  width: 60px;
+  height: 30px;
+  background-color: #3b74d1;
+  border-radius: 20px;
+}*/
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .text {
-    width: 700px;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.text {
+  width: 700px;
+}

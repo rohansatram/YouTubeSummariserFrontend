@@ -1,15 +1,15 @@
 body {
   display: flex;
   place-items: center;
-  background-color: darkorchid;
+  background-color: #1a1a1a;
   text-align: center;
   justify-content: center;
 }
 
 h3 {
   display: flex;
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: #1a1a1a;
   justify-content: center;
 }
 
@@ -17,21 +17,21 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
+  gap: 10px;
 }
 
 #follow-up input[type="text"] {
   width: 70%;
-  height: 50px;
+  height: 15%;
   border-radius: 20px;
 }
 
-#follow-up input[type="submit"] {
+/*#follow-up input[type="submit"] {
   width: 60px;
   height: 30px;
   background-color: #3b74d1;
   border-radius: 20px;
-}
+}*/
 
 p {
   background-color: white;
@@ -49,5 +49,3 @@ p {
 .text {
   width: 700px;
 }
-
-
