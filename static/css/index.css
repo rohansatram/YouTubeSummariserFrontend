@@ -25,6 +25,8 @@ h2 {
   width: 70%;
   height: 15%;
   border-radius: 20px;
+  color: white;
+  background-color: transparent;
 }
 
 /*#MyForm input[type="submit"] {
@@ -39,9 +41,30 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 50vh;
 }
 
 .text {
   width: 700px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+tr {
+  background-color: #1a1a1a;
+}
+
+th {
+  background-color: red;
+  color: white;
 }

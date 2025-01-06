@@ -20,14 +20,27 @@
     <title>YouTube Summarizer</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1a1a1a;">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only"></span></a>
+          <a class="nav-item nav-link" href="about">About</a>
+        </div>
+      </div>
+    </nav>
       <h2>Enter URL:</h2>
       <div class="url form-group">
       <form id="MyForm", action="/process", method = "post">
-        <input type="text" name="url"></br>
+        <input type="text" class="form-control" name="url"></br>
         <input type="submit"class="btn btn-primary", value="Go ->" />
       </form>
     </div>
     <div>
+      <h2>History:</h2>
       <table border="1">
         <tr style="color: red;">
             <th>Title</th>
