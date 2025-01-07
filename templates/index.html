@@ -42,17 +42,18 @@
     </div>
     <div>
       <h2>History:</h2>
-      <table border="1" style="max-width: 80%; margin: auto;">
-        <tr style="color: red;">
+      <table border="1" style="max-width: 80%; margin: auto;"><!---- class="table table-dark table-striped">-->
+        <tr style="color: #FF0000;">
             <th>Title</th>
             <th>Summary</th>
+            <th>Video Link</th>
         </tr>
         {% for row in data %}
-        <tr style="color: white;"> 
-            {% for cell in row %}
-            <td>{{ cell }}</td>
-            {% endfor %}
-        </tr>
+        <tr style="color: white;">
+          <td>{{ row[0] }}</td>
+          <td>{{ row[1] }}</td>
+          <td><a href="https://www.youtube.com/watch?v={{ row[2] }}" target="_blank">Watch Video</a></td>
+      </tr>
         {% endfor %}
     </table>
     </div>
