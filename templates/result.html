@@ -50,8 +50,8 @@
         id="player"
         src="{{ link }}"
         frameborder="0"
-        width="500"
-        height="300"
+        width="750"
+        height="450"
         allowfullscreen
         style="margin-bottom: 20px;"
       ></iframe>
@@ -61,7 +61,13 @@
         <form id="follow-up", action = "/result", method = "post">
           <input type="text" name="ytfollowup"></br>
           <input type="submit" class="btn btn-primary" , value="Go ->" />
+          <button type="button" class="btn btn-secondary" onclick="downloadFile()">Download video!</button>
         </form>
+        <script>
+          function downloadFile() {
+            window.location.href = '/download';
+          }
+        </script>
       </div>
     </div>
   </body>
