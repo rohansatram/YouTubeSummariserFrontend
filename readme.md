@@ -54,7 +54,7 @@ Save time with an AI-powered YouTube video summarizer that provides concise summ
    python app.py
    ```
 
-5. For the complete experience, also install the frontend:
+5. For the complete experience, also install the backend:
    [YouTube Summarizer Backend](https://github.com/rohansatram/YouTubeSummariserBackend)
 
 ## How It Works
